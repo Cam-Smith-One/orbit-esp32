@@ -1,0 +1,6 @@
+.venv/
+.private/
+__pycache__/
+*.log
+*.db*
+*.jpg

@@ -1,0 +1,12 @@
+*
+!Dockerfile
+!requirements.txt
+!server.py
+!cloud_sync.py
+!memory.py
+!opus_audio.py
+!weather.py
+!web_search.py
+!mcp_client.py
+!calendar_app.py
+!import_fly_seed.py

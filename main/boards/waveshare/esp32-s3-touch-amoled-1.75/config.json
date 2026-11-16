@@ -1,0 +1,43 @@
+{
+    "manufacturer": "waveshare",
+    "type": "esp32-s3-touch-amoled-1.75",
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "orbit-amoled-1.75c",
+            "sdkconfig_append": [
+                "CONFIG_BOARD_TYPE_WAVESHARE_ESP32_S3_TOUCH_AMOLED_1_75C=y",
+                "CONFIG_ORBIT_AGENT=y",
+                "CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y",
+                "CONFIG_LWIP_DNS_SUPPORT_MDNS_QUERIES=y",
+                "CONFIG_USE_WECHAT_MESSAGE_STYLE=n",
+                "CONFIG_USE_DEVICE_AEC=y",
+                "CONFIG_ESPTOOLPY_FLASHSIZE_32MB=y",
+                "CONFIG_LV_USE_SNAPSHOT=y",
+                "CONFIG_LV_USE_CANVAS=y",
+                "CONFIG_LV_FONT_MONTSERRAT_18=y",
+                "CONFIG_LV_FONT_MONTSERRAT_22=y",
+                "CONFIG_LV_FONT_MONTSERRAT_32=y",
+                "CONFIG_LV_FONT_MONTSERRAT_48=y",
+                "CONFIG_MBEDTLS_CUSTOM_CERTIFICATE_BUNDLE=y",
+                "CONFIG_MBEDTLS_CUSTOM_CERTIFICATE_BUNDLE_PATH=\"relay/.private/server.pem\""
+            ]
+        },
+        {
+            "name": "esp32-s3-touch-amoled-1.75",
+            "sdkconfig_append": [
+                "CONFIG_USE_WECHAT_MESSAGE_STYLE=n",
+                "CONFIG_BOARD_TYPE_WAVESHARE_ESP32_S3_TOUCH_AMOLED_1_75=y",
+                "CONFIG_USE_DEVICE_AEC=y"
+            ]
+        },
+        {
+            "name": "esp32-s3-touch-amoled-1.75c",
+            "sdkconfig_append": [
+                "CONFIG_USE_WECHAT_MESSAGE_STYLE=n",
+                "CONFIG_BOARD_TYPE_WAVESHARE_ESP32_S3_TOUCH_AMOLED_1_75C=y",
+                "CONFIG_USE_DEVICE_AEC=y"
+            ]
+        }
+    ]
+}

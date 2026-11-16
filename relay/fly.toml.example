@@ -1,0 +1,31 @@
+# Copy to fly.toml, replace the app name, and create a private volume before deployment.
+app = "your-orbit-relay"
+primary_region = "syd"
+
+[env]
+ORBIT_PUBLIC_URL = "https://your-orbit-relay.fly.dev"
+ORBIT_PRIVATE_DIR = "/var/data/orbit"
+ORBIT_PORT = "8080"
+
+[[mounts]]
+source = "orbit_data"
+destination = "/var/data/orbit"
+
+[http_service]
+internal_port = 8080
+force_https = true
+auto_stop_machines = "off"
+auto_start_machines = true
+min_machines_running = 1
+
+[[http_service.checks]]
+interval = "15s"
+timeout = "5s"
+grace_period = "20s"
+method = "GET"
+path = "/health"
+
+[[vm]]
+cpu_kind = "shared"
+cpus = 1
+memory_mb = 512
