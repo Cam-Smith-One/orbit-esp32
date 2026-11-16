@@ -22,6 +22,14 @@ Orbit turns the Waveshare ESP32-S3 Touch AMOLED 1.75C into a pocket voice interf
 
 *The four device images are captures from the 466 × 466 display. They contain no private calendar events or saved memories.*
 
+## See Orbit in action
+
+<a href="docs/orbit/orbit-demo-silent.mp4"><img src="docs/orbit/demo-poster.jpg" alt="Orbit weather card on the physical device; open the demo video" width="320"></a>
+
+[▶ Watch the 67-second device demo](docs/orbit/orbit-demo-silent.mp4) · Animated orb, weather card, and web-search card on the real board.
+
+This is a silent excerpt of the original camera recording. The sections showing personal calendar entries and a dictated note were excluded; audio and precise location metadata were removed from the public copy.
+
 ## What it does
 
 | On the device | Through the relay and optional console |
