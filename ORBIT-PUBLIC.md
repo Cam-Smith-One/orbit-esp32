@@ -4,6 +4,8 @@ Orbit is an experimental Wi-Fi voice companion with a round touch interface, ani
 
 This is a modification of [XiaoZhi ESP32](https://github.com/78/xiaozhi-esp32). Preserve the upstream [MIT licence](LICENSE) and attribution when redistributing it. ESP-IDF components and other dependencies may carry their own licences.
 
+**Hardware:** Waveshare ESP32-S3 Touch AMOLED **1.75C**. [Amazon Australia listing](https://www.amazon.com.au/dp/B0GGY19TF9?tag=camsmithassem-22&linkCode=ll2&linkId=e20f6cbf73853c039f96fb85f4bad2b1&ref_=as_li_ss_tl) (affiliate link). Confirm the 1.75C model before ordering.
+
 ## What to run
 
 - `main/boards/waveshare/esp32-s3-touch-amoled-1.75/`: board firmware and Orbit UI.

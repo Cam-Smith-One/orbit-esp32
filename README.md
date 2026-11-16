@@ -52,6 +52,10 @@ flowchart LR
 
 The board does not run an offline language model. OpenAI API usage is billed to the owner's key. The relay may run on a Mac or on the owner's own HTTPS host; the web console is optional.
 
+## Hardware
+
+Orbit's firmware targets the **Waveshare ESP32-S3 Touch AMOLED 1.75C**. [Find the board on Amazon Australia](https://www.amazon.com.au/dp/B0GGY19TF9?tag=camsmithassem-22&linkCode=ll2&linkId=e20f6cbf73853c039f96fb85f4bad2b1&ref_=as_li_ss_tl) (affiliate link). Check that the listing offers the **1.75C** version before ordering; other 1.75-inch Waveshare variants have different hardware.
+
 ## Get started
 
 1. Read the [setup and security guide](ORBIT-PUBLIC.md) before building or deploying.
